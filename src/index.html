@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My PHP Page</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h2>Daisy-Chained AJAX Example</h2>
+  <br />
+  <button id="btn" onclick="data_start();">Click To Begin</button>
+  <button in="hi" onclick="hello();">Click to say Hello</button>
+  <br />
+  <p>Clicking the button will access the URLs for the files data1.php thru data4.php via $.ajax() calls and output
+    the results in the output area below.
+  </p>
+  <br />
+  <br />
+  <div class="otitle">Output Area</div>
+  <div class="oarea" id="output"></div>
+</body>
+
+</html>
